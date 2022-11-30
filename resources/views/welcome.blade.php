@@ -63,15 +63,18 @@
 
         <div class="news">
             <div class="container">
-                <div class="row">
-                    <div class="col bg-primary">
-                        Column
+                <div class="row row-cols-3">
+                    <div class="col d-flex flex-column bd-highlight mb-2">
+                        <div class="p-2 bd-highlight fw-bold bg-secondary">PEMBUKAAN PENDAFTARAN BEASISWA ARKADA WORKS FOR EDUCATION</div>
+                        <h7>Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</h7>
                     </div>
-                    <div class="col">
-                        Column
+                    <div class="col d-flex flex-column bd-highlight mb-2">
+                        <div class="p-2 bd-highlight fw-bold bg-secondary">PEMBUKAAN PENDAFTARAN BEASISWA ARKADA WORKS FOR EDUCATION</div>
+                        <div class="p-2 bd-highlight">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
                     </div>
-                    <div class="col">
-                        Column
+                    <div class="col d-flex flex-column bd-highlight mb-2">
+                        <div class="p-2 bd-highlight fw-bold bg-secondary">PEMBUKAAN PENDAFTARAN BEASISWA ARKADA WORKS FOR EDUCATION</div>
+                        <div class="p-2 bd-highlight">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
                     </div>
                 </div>
             </div>
