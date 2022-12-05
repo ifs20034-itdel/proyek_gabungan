@@ -21,7 +21,7 @@
                     <a class="nav-link {{ ($title === "Beranda") ? 'active' : "" }}" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ ($title === "Profil") ? 'active' : "" }}" href="/profil">About</a>
+                    <a class="nav-link {{ ($title === "Profil") ? 'active' : "" }}" href="/profil">Profil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ ($title === "Berita") ? 'active' : "" }}" href="/berita">Berita</a>
@@ -38,9 +38,10 @@
                                 </a>
 
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="/beasiswa">Beasiswa</a></li>
+                                    <li><a class="dropdown-item" href="/prestasi">Prestasi</a></li>
+                                    <li><a class="dropdown-item" href="/peminjaman">Peminjaman Ruangan</a></li>
+                                    <li><a class="dropdown-item" href="/pkm">Program Kreativitas Mahasiswa</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -58,9 +59,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">MPM</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">BEM</a></li>
+                                    <li><a class="dropdown-item" href="#">UKM</a></li>
                                 </ul>
                             </li>
                         </ul>

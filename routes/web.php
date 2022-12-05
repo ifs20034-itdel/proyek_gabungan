@@ -21,6 +21,56 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/profil', function(){
+    return view('profil', [
+        'title' => 'Profil',
+        'image' => 'del.png',
+        'image2' => 'img/strukturorganisasi.png'
+    ]);
+});
+
+Route::get('/berita', function(){
+    return view('news', [
+        'title' => 'Berita',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/beasiswa', function(){
+    return view('beasiswa', [
+        'title' => 'Beasiswa',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/agenda', function(){
+    return view('agenda', [
+        'title' => 'Agenda',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/informasiumum', function(){
+    return view('informasiumum', [
+        'title' => 'Informasi Umum',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/prestasi', function(){
+    return view('prestasi', [
+        'title' => 'Prestasi',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/peminjaman', function(){
+    return view('peminjaman', [
+        'title' => 'Peminjaman Ruangan',
+        'image' => 'del.png',
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

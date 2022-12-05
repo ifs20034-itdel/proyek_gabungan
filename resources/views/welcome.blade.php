@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Kemahasiswaan | {{$title}} </title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -28,6 +28,9 @@
                 position: relative;
                 top: 100px;
             }
+            .berita{
+                color : #0014FF;
+            }
             .berita::after{
                 content : "";
                 display : block;
@@ -35,6 +38,25 @@
                 width : calc(200vh-50px);
                 height : 3px;
                 border-radius : 10px;
+            }
+            .kedua{
+                margin-top: 10px;
+            }
+            .jadwal::after, .jadwal2::after{
+                content : "";
+                display : block;
+                background-color : black;
+                width : calc(200vh-50px);
+                height : 3px;
+                border-radius : 10px;
+                margin-top: 10px;
+            }
+            .jadwal2{
+                margin-top: 10px;
+            }
+
+            h6.akses{
+                font-size: 15px;
             }
         </style>
     </head>
@@ -48,10 +70,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/gambardel.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>SELAMAT DATANG DI LAMAN</h3>
+                    <div class="carousel-caption d-none d-md-block mb-5" style="text-shadow: 2px 2px black, -2px -2px black;">
+                        <h3 class="fw-bolder">SELAMAT DATANG DI LAMAN</h3>
                         <h1 class="fw-bold">KEMAHASISWAAN</h1>
-                        <h3>INSTITUT TEKNOLOGI DEL</h3>
+                        <h3 class="fw-bolder">INSTITUT TEKNOLOGI DEL</h3>
                     </div>
                 </div>
             </div>
@@ -76,6 +98,75 @@
                         <div class="p-2 bd-highlight fw-bold bg-secondary">PEMBUKAAN PENDAFTARAN BEASISWA ARKADA WORKS FOR EDUCATION</div>
                         <div class="p-2 bd-highlight">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <h6 class="fw-bold mx-3 berita kedua"></h6>
+
+        <div class="agenda">
+            <div class="container">
+                <div class="row row-cols-3">
+                    <div class="semua">
+                        <div class="col d-flex flex-column bd-highlight mb-2 jadwal2">
+                            <div class="p-2 bd-highlight fw-bold jadwal">AGENDA KEGIATAN</div>
+                            <div class="d-flex flex-row justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary fs-5">02 Sep</div>
+                            <div class="p-2 bd-highlight flex-grow-3 bg-danger"></div>
+                            <div class="p-2 bd-highlight flex-grow-1 bg-success">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary fs-5">16 Sep</div>
+                            <div class="p-2 bd-highlight flex-grow-3 bg-danger"></div>
+                            <div class="p-2 bd-highlight flex-grow-1 bg-success">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary fs-5">30 Sep</div>
+                            <div class="p-2 bd-highlight flex-grow-3 bg-danger"></div>
+                            <div class="p-2 bd-highlight flex-grow-1 bg-success">Dalam upaya turut mencerdaskan kehidupan bangsa. ARKADA Works menyelenggarakan...</div>
+                        </div>
+                    </div>
+                        <a href="/agenda"><div class="next">Lihat Semua</div></a>
+                    </div>
+
+                    <div class="semua">
+                        <div class="col d-flex flex-column bd-highlight mb-2 jadwal2">
+                            <div class="p-2 bd-highlight fw-bold jadwal">INFORMASI UMUM DAN LOWONGAN</div>
+                            <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                                <div class="p-2 bd-highlight bg-secondary">TechConnect Hackaton #4 dan Career Hack</div>
+                                <div class="p-2 bd-highlight flex-grow-3 bg-danger">23 September 2022</div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                                <div class="p-2 bd-highlight bg-secondary">Penerimaan Rekrutmen Tenaga Mahasiswa Paruh Waktu Periode 2022 Institut Teknologi Del</div>
+                                <div class="p-2 bd-highlight flex-grow-3 bg-danger">23 September 2022</div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                                <div class="p-2 bd-highlight bg-secondary">Penerimaan Rekrutmen Tenaga Mahasiswa Paruh Waktu Periode 2022 Institut Teknologi Del</div>
+                                <div class="p-2 bd-highlight flex-grow-3 bg-danger">23 September 2022</div>
+                            </div>
+                        </div>
+                        <a href="/informasiumum"><div class="next">Lihat Semua</div></a>
+                    </div>
+
+                    <div class="semua">
+
+                        <div class="col d-flex flex-column bd-highlight mb-2 jadwal2">
+                            <div class="p-2 bd-highlight fw-bold jadwal">INFORMASI BEASISWA</div>
+                        <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary">Beasiswa Tanoto</div>
+                            <a href="#"><div class="p-2 bd-highlight flex-grow-3 bg-danger"><em>Lihat Selengkapnya...</em></div></a>
+                        </div>
+                        <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary">Penerimaan Rekrutmen Tenaga Mahasiswa Paruh Waktu Periode 2022 Institut Teknologi Del</div>
+                            <a href="#"><div class="p-2 bd-highlight flex-grow-3 bg-danger"><em>Lihat Selengkapnya...</em></div></a>
+                        </div>
+                        <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
+                            <div class="p-2 bd-highlight bg-secondary">Penerimaan Rekrutmen Tenaga Mahasiswa Paruh Waktu Periode 2022 Institut Teknologi Del</div>
+                        <a href="#"><div class="p-2 bd-highlight flex-grow-3 bg-danger"><em>Lihat Selengkapnya...</em></div></a>
+                        </div>
+                    </div>
+                    <a href="#"><div class="next mb-5">Lihat Semua</div></a>
+                </div>
                 </div>
             </div>
         </div>
