@@ -149,7 +149,6 @@
                     </div>
 
                     <div class="semua">
-
                         <div class="col d-flex flex-column bd-highlight mb-2 jadwal2">
                             <div class="p-2 bd-highlight fw-bold jadwal">INFORMASI BEASISWA</div>
                         <div class="d-flex flex-column justify-content-between p-2 bd-highlight">
@@ -165,7 +164,7 @@
                         <a href="#"><div class="p-2 bd-highlight flex-grow-3 bg-danger"><em>Lihat Selengkapnya...</em></div></a>
                         </div>
                     </div>
-                    <a href="#"><div class="next mb-5">Lihat Semua</div></a>
+                    <a href="/beasiswa"><div class="next mb-5">Lihat Semua</div></a>
                 </div>
                 </div>
             </div>

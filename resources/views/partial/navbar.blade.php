@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="navbar navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                 <img src="img/{{$image}}" width="60" height="60" class="d-inline-block align-text-top">
                 </a>
                 <div class="d-flex flex-column bd-highlight">
@@ -59,9 +59,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item disabled" href="#">MPM</a></li>
-                                    <li><a class="dropdown-item disabled" href="#">BEM</a></li>
-                                    <li><a class="dropdown-item" href="#">UKM</a></li>
+                                    <li><a class="dropdown-item" href="/mpm">MPM</a></li>
+                                    <li><a class="dropdown-item" href="/bem">BEM</a></li>
+                                    <li><a class="dropdown-item" href="/ukm">UKM</a></li>
                                 </ul>
                             </li>
                         </ul>

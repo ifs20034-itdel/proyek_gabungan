@@ -17,8 +17,12 @@
             <div class="d-flex flex-column p-2 bd-highlight mt-3">
                 <h6 class="akses fw-bold">
                     AKSES <br>
-                    Website Utama Kemahasiswaan Institut Teknologi Del <br>
-                    SPMB Institut Teknologi Del
+                    <a href="https://del.ac.id" target="_blank">
+                        Website Utama Kemahasiswaan Institut Teknologi Del <br>
+                    </a>
+                    <a href="http://spmb.del.ac.id/" target="_blank">
+                        SPMB Institut Teknologi Del
+                    </a>
                 </h6>
             </div>
             <div class="d-flex flex-column p-2 bd-highlight mt-3">

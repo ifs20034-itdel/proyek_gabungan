@@ -71,6 +71,32 @@ Route::get('/peminjaman', function(){
     ]);
 });
 
+Route::get('/pkm', function(){
+    return view('pkm', [
+        'title' => 'Program Kreativitas Mahasiswa',
+        'image' => 'del.png',
+    ]);
+});
+
+Route::get('/mpm', function(){
+    return view('mpm', [
+        'title' => 'Majelis Permusyawaratan Mahasiswa',
+        'image' => 'del.png',
+    ]);
+});
+Route::get('/bem', function(){
+    return view('bem', [
+        'title' => 'Badan Eksekutif Mahasiswa',
+        'image' => 'del.png',
+    ]);
+});
+Route::get('/ukm', function(){
+    return view('ukm', [
+        'title' => 'Unit Kegiatan Mahasiswa',
+        'image' => 'del.png',
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
